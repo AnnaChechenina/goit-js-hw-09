@@ -1,12 +1,12 @@
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 // Елементи форми
-startBtn = document.querySelector('[data-start]');
-boxTimer = document.querySelector('.timer');
-daysTimer = document.querySelector('[data-days]');
-hoursTimer = document.querySelector('[data-hours]');
-minutesTimer = document.querySelector('[data-minutes]');
-secondsTimer = document.querySelector('[data-seconds]');
+const startBtn = document.querySelector('[data-start]');
+const boxTimer = document.querySelector('.timer');
+const daysTimer = document.querySelector('[data-days]');
+const hoursTimer = document.querySelector('[data-hours]');
+const minutesTimer = document.querySelector('[data-minutes]');
+const secondsTimer = document.querySelector('[data-seconds]');
 // Стилі
 boxTimer.setAttribute(
   'style',

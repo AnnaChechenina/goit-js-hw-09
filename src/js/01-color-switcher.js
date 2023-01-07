@@ -17,6 +17,7 @@ function getRandomHexColor() {
 }
 const startBtn = document.querySelector('[data-start]');
 const stopBtn = document.querySelector('[data-stop]');
+let timerSwitch = null;
 
 startBtn.addEventListener('click', onStartBtnClick);
 stopBtn.addEventListener('click', onStopBtnClick);
